@@ -1,0 +1,35 @@
+# Core dependencies
+torch>=2.0.0
+torchvision>=0.15.0
+diffusers>=0.32.0
+transformers>=4.35.0
+accelerate>=0.24.0
+peft>=0.8.0
+# wandb>=0.16.0          # 可选：实验跟踪（不需要可不装）
+# bitsandbytes>=0.41.0   # 可选：8-bit AdamW（Windows 上可能不可用）
+lycoris-lora>=1.9.0
+safetensors>=0.4.0
+Pillow>=10.0.0
+numpy>=1.24.0
+tqdm>=4.66.0
+omegaconf>=2.3.0
+einops>=0.7.0
+# xformers>=0.0.23       # 可选：memory efficient attention（Windows 上可能安装失败）
+# flash-attn>=2.4.0      # 可选：FlashAttention（通常仅 Linux/特定环境可用）
+lpips>=0.1.4
+pytorch-fid>=0.3.0
+pytorch-msssim>=0.2.1
+scipy>=1.10.0
+scikit-image>=0.20.0
+matplotlib>=3.7.0
+pandas>=2.0.0
+pillow-jxlpy>=0.9.0
+
+# GUI dependencies
+fastapi>=0.104.0
+uvicorn>=0.24.0
+python-multipart>=0.0.6
+pydantic>=2.5.0
+pyyaml>=6.0.1
+psutil>=5.9.0
+rich>=13.7.0

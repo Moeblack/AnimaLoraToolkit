@@ -1,0 +1,60 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyd
+*.so
+.Python
+build/
+dist/
+*.egg-info/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Virtualenv
+.venv/
+venv/
+ENV/
+
+# Logs / local outputs
+output/
+monitor_data/
+config/autosave/
+*.log
+wandb/
+
+# User-specific training configs (keep templates only)
+config/train_*.yaml
+!config/train_template.yaml
+!config/train_local.yaml
+
+# OS / editor
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+.vscode/
+.idea/
+.claude/
+
+# Caches (HF/Transformers etc.)
+**/.cache/
+
+# Deleted directories (prevent re-creation)
+examples/
+scripts/
+
+# Model weights (keep code/config, ignore large weights)
+*.safetensors
+*.ckpt
+*.bin
+*.pt
+*.pth
+*.npz
+models/text_encoders/tokenizer.json
+models/text_encoders/vocab.json
+
+# Misc
+nul
+AGENTS.md
+CLAUDE.md
